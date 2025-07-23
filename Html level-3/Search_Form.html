@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Search_entity</title>
+</head>
+
+<body>
+  <form action="https://www.google.com/search" target="_blank">
+    <label for="search">Enter anything</label>
+    <input type="text" placeholder="Enter Search" name="q" id="Search">
+    <button type="submit">Submit</button>
+  </form>
+  <hr>
+  <form action="/action">
+    <h1>Registration Form </h1>
+    <div>
+      <label for="First Name"></label>
+      <input type="text" name="First Name" id="First Name" placeholder="First Name">
+      <label for="Last Name"></label>
+      <input type="text" name="Last Name" id="Last Name" placeholder="Last Name">
+
+    </div>
+    <div>
+      <label for="gender">Please select gender</label>
+      <select name="gender" id="gender">
+      <option value="select any option">select any option</option>
+      <option value="Male" selected>Male</option>
+      <option value="Female">Female</option>
+      <option value="Prefer not to say">Prefer not to say</option>
+      </select>
+    </div>
+    <div>
+      Do You agree to all terms of service?
+      
+      <input type="checkbox" name="yes" id="yes" value="yes">
+      <label for="yes">Yes, I agree</label>
+      
+    </div>
+    <div>
+      <button type="submit">Register</button>
+    </div>
+    <hr>
+    <div>
+      <label for="range">Enter the range :</label>
+      <input type="range" name="range" id="range" min="0" max="100" step="10" value="70">
+    </div>
+    <hr>
+    <div>
+      <label for="Feedback">Enter your valuable Feedback</label>
+      <textarea id="Feedback" name="Feedback" placeholder="Please enter your feedback"></textarea>
+    </div>
+  </form>
+  
+</body>
+
+</html>
