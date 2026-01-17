@@ -1,0 +1,30 @@
+button:hover { 
+  background-color: black;
+  color: rgb(7, 130, 237);
+}
+button:active{
+  background-color: brown;
+  color: greenyellow;
+}
+p:active{
+  text-decoration:underline;
+  font-weight: 700;
+}
+input[type="radio"]:checked + label{
+  background-color: beige;
+  color: darkblue;
+}
+div:nth-of-type(3n){
+background-color: burlywood;
+}
+h1::first-letter{
+  background-color: black;
+  color: wheat;
+}
+p::first-line{
+  color:aquamarine;
+  background-color: chocolate;
+}
+input[id="search"] + label::selection{
+  background-color:rgb(66, 114, 66)
+}

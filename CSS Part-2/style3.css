@@ -1,0 +1,33 @@
+h1{
+  color: pink; /* Lowest Priority*/
+}
+#greet{
+  color: green; /* Highest Priority*/
+}
+.myClass{
+  color: yellow; /* Middle Priority*/
+}
+
+p{
+  background-color: red;/* Lowest Priority */
+}
+div p {
+  background-color: cyan;/* Middle Priority*/
+}
+.Para{
+  background-color: orange;/* Highest Priority*/
+}
+
+div.greetDiv .greet{
+  color: rgb(204, 255, 0) !important;
+}
+
+.greetDiv p.greet{
+  color: blue;
+}
+
+.greetDiv .greet{
+  color: rgb(0, 255, 208);
+}
+
+/* If i write !important in any property than it will become the most important and cannot be changed later by any chance eg see in above line-*/ 
