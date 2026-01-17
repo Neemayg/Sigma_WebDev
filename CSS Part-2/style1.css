@@ -1,0 +1,32 @@
+
+nav ul li a{
+  color: chartreuse;
+  background-color: blue;
+}
+nav ul li{
+  color: hotpink;
+}
+.green{
+  background-color: burlywood;
+}
+p + h3{
+  text-decoration: underline;
+}
+div > input{
+  background-color: beige;
+}
+input[type]{
+  background-color: ghostwhite;
+}
+input[type="text"]{
+  color: aqua;
+}
+input[type="password"]{
+   color: chartreuse;
+}
+span{
+  background-color: cyan;
+}
+button{
+   background-color: inherit; /* here we are using the inherit property for the background color of the button but remember it does not works always like it will not work for height and width and all that */
+}
