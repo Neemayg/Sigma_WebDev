@@ -1,0 +1,22 @@
+#main{
+  height: 400px;
+  width: 400px;
+  border: 2px solid cyan;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-evenly;
+  align-items: center;
+}
+.inside{
+  height: 100px;
+  width: 100px;
+  background-color: gray;
+  border: 3px solid black;
+  font-size: 50px;
+  text-align: center;
+  border-radius: 10px;
+  
+  
+  
+}

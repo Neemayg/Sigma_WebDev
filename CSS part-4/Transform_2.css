@@ -1,0 +1,45 @@
+section{
+  margin-top: 100px;
+}
+div{
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  margin: 10px auto;
+  /* border: 2px solid black; */
+  background-color: cyan;
+
+}
+
+div:nth-of-type(2n){
+  background-color: #f7db6a;
+}
+div:nth-of-type(3n){
+  background-color: #ebb02d;
+}
+ #one{
+  transform: rotate(45deg);
+ }
+ #two{
+  transform: scale(0.5);
+ }
+ #three{
+  transform: skew(30deg);
+ }
+
+ #four{
+  transform: translate(100px);
+ }
+
+#Shadow{ 
+   width: 700px;
+  height: 100px;
+  text-align: center;
+  margin: 10px auto;
+  /* background-color: #7aa874; */
+  box-shadow: 5px 5px 8px black;
+  background-image: url(scenery.jpg);
+  background-size: cover;
+  color: aliceblue;
+  font-size: 20px;
+}

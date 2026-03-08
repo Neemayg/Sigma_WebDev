@@ -1,0 +1,26 @@
+#container {
+    height: 500px;
+    width: 80%;
+    background-color: azure;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    /* align-items:baseline; It is for the cross axis */
+    /* align-content: baseline; It is for the cross axis */
+    /* align-self: center; it is used when we give id or class to a specific div and then have to change its direction or alignments with respect to other  */
+}
+
+h1 {
+    text-align: center;
+}
+
+#container div {
+    height: 50px;
+    width: 300px;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+}
